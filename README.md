@@ -8,7 +8,7 @@ cd unityhub
 makepkg -si
 
 
-# Optionnaly remove the cloned repository
+# Optionnaly clean up
 cd ~/
 
 rm -rf unityhub
