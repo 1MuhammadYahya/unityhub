@@ -1,6 +1,6 @@
-# Maintainer: HunabKu <hunabku@gmx.com>
+# Maintainer: hunabku <hunabku@gmx.com>
 pkgname=unityhub
-pkgver=3.0.0
+pkgver=3.0.1
 pkgrel=1
 pkgdesc="Unity Hub beta"
 arch=('x86_64')
@@ -11,11 +11,11 @@ optdepends=('libappindicator-gtk3: The DEB says this an optional dependency')
 provides=('unityhub')
 install='unityhub.install'
 source=(
-  "$pkgname-$pkgver.deb::https://hub.unity3d.com/linux/repos/deb/pool/main/u/unity/unityhub_amd64/unityhub-amd64-3.0.0.deb"
+  "$pkgname-$pkgver.deb::https://hub.unity3d.com/linux/repos/deb/pool/main/u/unity/unityhub_amd64/unityhub-amd64-3.0.1.deb"
   'license.txt'
 )
 sha256sums=(
-  'c358dbbe590a2777719686a26494fee8b55bbcec8a0f4378dccb50715f2a7fde'
+  '2c07bd472755b5eb544a0f89a528c7237c502daed4b56f6371611442cc4b3c0f'
   'f0eb3a4bb148bb7f426e4f5b97e891265ac487710cbcba9282518537c7b5d833'
 )
 OPTIONS=(!strip)
