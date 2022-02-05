@@ -2,7 +2,7 @@
 pkgname=unityhub
 pkgver=3.0.1
 pkgrel=1
-pkgdesc="Unity Hub beta"
+pkgdesc="Unity Hub"
 arch=('x86_64')
 url="https://unity.com/"
 license=('custom')
