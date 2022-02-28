@@ -8,7 +8,7 @@ cd unityhub
 makepkg -si
 
 
-# Optionnaly clean up
+# Optionally clean up
 cd ~/
 
 rm -rf unityhub
